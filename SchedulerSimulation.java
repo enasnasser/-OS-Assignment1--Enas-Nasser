@@ -33,8 +33,7 @@ class Process implements Runnable {
     private int burstTime; // Total time the process requires to complete (in milliseconds)
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
-    private int priority; // Priority value from 1 to 10, where 10 is highest
-   
+
     // Feature1: add priority field (integer 1-10, where 10 is highest)
     private int priority; // Priority of the process (1-10, 10 being highest)
     //  private long createdTime; // Timestamp when the process object was created
@@ -50,6 +49,7 @@ class Process implements Runnable {
         this.remainingTime = burstTime;
         this.priority = priority; // Feature1: Initialize priority
         this.createdTime = System.currentTimeMillis();
+        
         this.queueEntryTime = this.createdTime;
     }
 
