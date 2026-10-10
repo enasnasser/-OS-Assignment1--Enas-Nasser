@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | Enas Nasser  |
+| **Student ID** | 445052059 |
+| **University Email** | 445052059@std.psau.edu.sa |
+| **GitHub Username** | enasnasser |
+| **Repository Link** | https://github.com/enasnasser/-OS-Assignment1--Enas-Nasser.git |
  
 ---
 
@@ -129,95 +129,104 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [October 10, 2026, 9:00 AM]
+What I did: Set up my development environment and prepared the assignment project.
 
-**Details**:
+Details:
 
-**Challenges**:
+* Downloaded and installed Visual Studio Code.
+* Opened my assignment project.
+* Located SchedulerSimulation.java.
+* Changed the student ID on line 150 to my own student ID.
 
-**Solution**:
+Challenges: I needed to set up the development environment before working on the assignment.
 
-**Time spent**:
+Solution: I installed Visual Studio Code and opened the project to begin working on the code.
+
+Time spent:  1 hour
+---
+
+### Entry 2 - [ October 10, 2026, 8:00 ]
+What I did: Implemented Feature 1: Process Priority.
+
+Details:
+
+* Worked on adding priority information to the simulated processes.
+* Reviewed the related Java code.
+* Checked the changes before moving to the next feature.
+
+Challenges: I needed to understand where the priority information belonged in the existing code.
+
+Solution: I reviewed the relevant parts of the code and worked on the feature step by step.
+
+Time spent: 1 hour
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**:
+### Entry 3 - [October 10, 2026, 7:00]
+What I did: Implemented Feature 2: Context Switch Counter.
 
-**Details**:
+Details:
 
-**Challenges**:
+* Worked on the context switch counter.
+* Reviewed how the scheduler selects a thread from the ready queue.
+* Practiced saving and uploading code changes using GitHub Commit and Push.
 
-**Solution**:
+Challenges: I needed to understand how to manage my code changes and upload them to GitHub.
 
-**Time spent**:
+Solution: I practiced the Commit and Push workflow in Visual Studio Code.
 
----
+Time spent: 1 hour
 
-### Entry 3 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**:
+### Entry 4 - [October 10, 2026, 8:00]
+What I did: Implemented Feature 3: Waiting Time Tracking.
 
-**Details**:
+Details:
 
-**Challenges**:
+* Worked on tracking the waiting time of simulated processes.
+* Reviewed the waiting time summary in the program output.
+* Practiced saving and pushing the latest changes.
 
-**Solution**:
+Challenges: I needed to check that the waiting time information was displayed correctly.
 
-**Time spent**:
+Solution: I ran the program and reviewed its output.
 
----
-
-### Entry 5 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+Time spent: 1 hour
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**:
+### Entry 5 - [October 10, 2026, 9:00]
+What I did: Tested the scheduler output and reviewed the ready queue behavior.
 
-**Details**:
+Details:
 
-**Challenges**:
+* Ran the program and reviewed the process scheduling output.
+* Observed messages showing processes returning to the ready queue.
+* Recorded the requeue results from my run: P3, P5, P7, and P9 returned once each, while P8 returned twice.
+* Calculated a total of six requeue events from the output I observed.
 
-**Solution**:
+Challenges: I needed to distinguish the number of requeue events from the number of different processes that returned to the queue.
 
-**Time spent**:
+Solution: I counted each requeue message and checked the process names and counts.
+
+Time spent: 30 hour
+
 
 ---
+
 
 ## Development Log Summary
 
-> 💡 **TIP:** Fill this in **last**, after all entries are written.
+>Total time spent on assignment: Approximately 6 hours  spread across multiple sessions
 
-**Total time spent on assignment**: [X hours]
+Most challenging part: Learning how to modify the Java code and use GitHub Commit and Push correctly
 
-**Most challenging part**:
+Most interesting learning: Understanding how the Round Robin scheduler manages processes and tracks waiting time
 
-**Most interesting learning**:
-
-**What I would do differently next time**:
+What I would do differently next time: I would start earlier review the code carefully, and test each feature after implementing it
 
 ---
 
@@ -237,7 +246,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+I learned that multithreading allows a program to run tasks using threads. Thread.start() starts a thread, and Thread.sleep() pauses it temporarily. Thread.join() makes the main thread wait for another thread to finish. In my assignment, Process implements Runnable. I also learned how Round Robin gives each process a limited CPU time called a time quantum
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +254,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+The most challenging part was modifying the Java code correctly. I needed time to understand the existing code. I also had to learn how to use Visual Studio Code. Learning GitHub Commit and Push was another challenge. Working on each feature separately helped me manage the assignment
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +262,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+I worked on the assignment one feature at a time. I reviewed the code to understand where changes were needed. I asked questions when I needed help understanding a concept. I also checked the program output while working on the assignment. This helped me understand the code and the scheduling process better
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +270,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+Operating systems can share CPU time between processes using scheduling algorithms. Round Robin gives each process a time quantum before moving to the next one. This helps share CPU time fairly. Web browsers can also download files while users browse websites. Multithreading helps applications handle tasks without blocking other activities
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +302,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+A process is a program with its own memory, while threads share resources within a process. In my code, the Process class represents a simulated process. The statement new Thread(process) creates a thread to execute it.
 
 ## Question 2: Ready Queue Behavior
 
@@ -305,15 +314,21 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+In Round Robin, unfinished processes return to the end of the Ready Queue. In my output, P8 returned twice, while P3, P5, P7, and P9 returned once each. The total requeue count was 6.
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[PP3 returned to Ready Queue. Requeue count: 1
+P5 returned to Ready Queue. Requeue count: 1
+P7 returned to Ready Queue. Requeue count: 1
+P8 returned to Ready Queue. Requeue count: 1
+P9 returned to Ready Queue. Requeue count: 1
+P8 returned to Ready Queue. Requeue count: 2]
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+These lines show that P8 returned to the Ready Queue twice, while the other listed processes returned once each. The total number of re-queue events shown is six.
+
 
 ## Question 3: Thread Lifecycle
 
@@ -323,15 +338,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: P1’s thread is created by new Thread(process) in addProcessToQueue().
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**:  P1 becomes eligible to run when Thread.start() is called.
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: P1 executes its run() method when the Java scheduler gives it CPU time.
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**:  P1 may pause in Thread.sleep(), while the main thread can wait for P1 using Thread.join().
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**:  P1’s thread reaches this state when its run() method finishes.
 
 ## Question 4: Real-World Applications
 
@@ -341,32 +356,33 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): Operating-System CPU Scheduling
 
-**Description**:
+**Description**: Description: An operating system can use Round Robin to share CPU time among processes. Each process receives a time quantum, and an unfinished process returns to the Ready Queue. This helps provide fair CPU access and predictable turns.
 [Describe the real-world scenario.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+ The time quantum limits how long each process runs before another gets a turn. The scheduler switches execution between processes, helping prevent one process from monopolizing the CPU
 
-### Example 2: [Name of application/scenario]
+### Example 2: Multitasking Application Web Browser
 
-**Description**:
-[Describe the real-world scenario or application.]
+**Description**: A browser can download files while the user browses websites. Multithreading allows different tasks to run without blocking other activities. This helps the browser remain responsive.
+
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+ Round Robin can distribute CPU time fairly among runnable threads. Context switches allow the CPU to move between tasks, helping the application remain responsive when several tasks need processing.
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.The difference between a simulated process and a Java thread
+2. How Round Robin uses a time quantum and Ready Queue.
+3. How threads move through their lifecycle states.
+
 
 **Concepts I need to study more:**
-1.
-2.
+1. Thread synchronization
+2. Other CPU scheduling algorithms
 
 ---
 
